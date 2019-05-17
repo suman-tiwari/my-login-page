@@ -1,0 +1,95 @@
+body{
+    font-family:tahoma, sans-serif;
+    background-image: linear-gradient(to right, #eb6637, #ef7d38,#f09839);
+    width: 60%;
+    margin: auto;
+}
+
+content{
+    float: right;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    height: 400px;
+}
+
+.text-arrow{
+    margin-top: 60px;
+    margin-right: 15px;
+    width: 37%;
+    display: inline-block;
+    color:white;
+}
+.about{
+    margin-top:50px;
+}
+.about a{
+    padding: 10px 20px;
+    color:#4d4d4d;
+    background: white;
+    border-radius:20px;
+    text-decoration:none;
+}
+
+.register{
+    width: 60%;
+    height: 100%;
+    float: right;
+
+
+    
+}
+.curve{
+    width: 5%;
+    height: 100%;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 100% 0% 0% 100%;
+    display: inline;
+    float: left;
+    background: black;
+
+}
+/* .register::before{
+    content:"";
+    background: black;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    top:0;
+} */
+
+.form1{
+    height: 100%;
+    margin-top: 20px;
+    padding: 5px 40px;
+    position:relative;
+    background: #f8f8f8;
+}
+h2{
+    color: #4d4d4d;
+}
+
+
+.form1 input:not(:last-child){
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.form1 input:last-child{
+    padding: 10px 20px;
+    float: right;
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+    background: #f09839;
+    color: white;
+    margin-top: 35px;
+}
+.material-icons{
+    font-size:80px !important;
+    transform: rotate(180deg)scale(1.5,1);
+    font-size: 80px;
+}
