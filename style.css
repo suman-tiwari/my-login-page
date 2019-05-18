@@ -20,9 +20,7 @@ content{
     display: inline-block;
     color:white;
 }
-/* .text-arrow>(i, h1, p, .about){
-    margin-bottom: 40px;
-} */
+
 .about{
     margin-top:40px;
 }
@@ -47,15 +45,6 @@ content{
     background: #f8f8f8;
 
 }
-/* .register::before{
-    content:"";
-    background: black;
-    width:100px;
-    height:100px;
-    border-radius:50%;
-    position:absolute;
-    top:0;
-} */
 
 .form1{
     width: 85%;
