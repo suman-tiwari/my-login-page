@@ -35,19 +35,13 @@ content{
     width: 60%;
     height: 100%;
     float: right;
-
-
-    
 }
 .curve{
     width: 5%;
     height: 100%;
-    margin-top: 20px;
-    border: 1px solid black;
     border-radius: 100% 0% 0% 100%;
-    display: inline;
-    float: left;
-    background: black;
+    display: inline-block;
+    background: #f8f8f8;
 
 }
 /* .register::before{
@@ -61,10 +55,9 @@ content{
 } */
 
 .form1{
+    width: 95%;
     height: 100%;
-    margin-top: 20px;
-    padding: 5px 40px;
-    position:relative;
+    float: right;
     background: #f8f8f8;
 }
 h2{
@@ -73,10 +66,10 @@ h2{
 
 
 .form1 input:not(:last-child){
-    width: 100%;
+    width: 85%;
     height: 25px;
     margin-top: 10px;
-    padding: 5px 10px;
+    padding: 5px 15px;
 }
 .form1 input:last-child{
     padding: 10px 20px;
@@ -86,10 +79,17 @@ h2{
     border-radius: 20px;
     background: #f09839;
     color: white;
-    margin-top: 35px;
+    margin:35px 20px 0px 0px;
 }
 .material-icons{
     font-size:80px !important;
     transform: rotate(180deg)scale(1.5,1);
     font-size: 80px;
+}
+
+@media screen and (max-width:900px){
+    .text-arrow, .register{
+        width:100%;
+        margin-bottom:20px;
+    }
 }
